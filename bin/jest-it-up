@@ -17,6 +17,12 @@ program
   .option('-s, --silent', 'do not output messages')
   .option('-d, --dry-run', 'process but do not change files')
   .option(
+    '--max-threshold <max>',
+    'max value to update the threshold',
+    parseFloat,
+    100,
+  )
+  .option(
     '-p, --precision <digits>',
     'number of threshold decimal places to persist',
     parseInt,

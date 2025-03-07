@@ -71,5 +71,6 @@ Options:
   -d, --dry-run                process but do not change files
   -v, --version                output the version number
   -p, --precision              number of threshold decimal places to persist
+  ---max-threshold             max value to update the threshold
   -h, --help                   display help for command
 ```
