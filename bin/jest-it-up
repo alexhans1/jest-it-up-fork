@@ -17,8 +17,8 @@ program
   .option('-s, --silent', 'do not output messages')
   .option('-d, --dry-run', 'process but do not change files')
   .option(
-    '--max-threshold <max>',
-    'max value to update the threshold',
+    '-T --target-threshold <target>',
+    'target threshold to reach',
     parseFloat,
     100,
   )

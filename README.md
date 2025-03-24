@@ -63,14 +63,14 @@ $ jest-it-up --help
 Usage: jest-it-up [options]
 
 Options:
-  -c, --config <path>          path to a Jest config file (default: 'jest.config.js')
-  -m, --margin <margin>        minimum threshold increase (default: 0)
-  -t, --tolerance <tolerance>  threshold difference from actual coverage
-  -i, --interactive            ask for confirmation before applying changes
-  -s, --silent                 do not output messages
-  -d, --dry-run                process but do not change files
-  -v, --version                output the version number
-  -p, --precision              number of threshold decimal places to persist
-  ---max-threshold             max value to update the threshold
-  -h, --help                   display help for command
+  -c, --config <path>             path to a Jest config file (default: "jest.config.js")
+  -m, --margin <margin>           minimum threshold increase (default: 0)
+  -t, --tolerance <tolerance>     threshold difference from actual coverage (default: 0)
+  -i, --interactive               ask for confirmation before applying changes
+  -s, --silent                    do not output messages
+  -d, --dry-run                   process but do not change files
+  -T --target-threshold <target>  target threshold to reach (default: 100)
+  -p, --precision <digits>        number of threshold decimal places to persist (default: 2)
+  -v, --version                   output the version number
+  -h, --help                      display help for command
 ```
